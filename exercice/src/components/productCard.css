@@ -1,0 +1,144 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+article {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+header h2 {
+    font-size: 1.8em;
+    color: #2c3e50;
+    text-align: center;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 15px 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+p {
+    font-size: 1.2em;
+    color: #27ae60;
+    margin: 0;
+}
+
+select {
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+.size {
+    width: 100%;
+    padding: 20px;
+}
+
+.size a {
+    text-decoration: none;
+    color: RGB(255, 255, 255);
+    text-decoration: underline;
+}
+
+.size a:hover {
+    color: RGB(0, 204, 255);
+}
+
+.product_size {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    list-style-type: none;
+    padding: 0;
+    justify-content: flex-start; 
+}
+
+input[type="radio"] {
+    display: none; 
+}
+
+label {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+
+input[type="radio"]:checked + label {
+    border-color: black; 
+    background-color: #fff;
+    color: RGB(44, 47, 59);
+}
+
+
+input[type="radio"]:disabled + label {
+    background-color: #f0f0f0;
+    color: #ccc;
+    border-color: #e0e0e0;
+    cursor: not-allowed;
+}
