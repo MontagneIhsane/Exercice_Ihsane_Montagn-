@@ -18,13 +18,13 @@ body {
     padding: 20px;
 }
 
-/* Styles pour les articles de produit */
+
 .article {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 250px; /* Ajuste la largeur des cartes */
+    width: 250px; 
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
