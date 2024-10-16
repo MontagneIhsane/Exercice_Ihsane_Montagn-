@@ -1,4 +1,4 @@
-import './productCard.css';
+import './productGallery.css';
 
 import React, { useState } from 'react';
 
